@@ -71,3 +71,44 @@
     display: none;
   }
 }
+
+.k {
+  position: relative;
+  display: inline-block;
+}
+
+.k {
+  position: relative;
+  display: inline-block;
+}
+
+.k::after {
+  content: "";
+  position: absolute;
+
+  width: 12em;
+  height: 0.5em;
+
+  background: url("../img/detalhe-k.svg") no-repeat center;
+  background-size: contain;
+
+  top: 32%;
+  left: -25%;
+
+  transform: translate(-45%, -15%) rotate(-1deg);
+  pointer-events: none;
+}
+
+/* .k::after {
+  content: "";
+  position: absolute;
+
+  width: 0.7em;
+  height: 0.5em;
+
+  background: url("../img/detalhe-k.svg") no-repeat center;
+  background-size: contain;
+
+  top: 0.27em;
+  left: 0.1em;
+} */
