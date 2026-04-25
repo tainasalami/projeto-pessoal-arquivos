@@ -4,6 +4,7 @@
 
 .experiencia .subtitulo {
   color: #e0e0e0;
+  text-transform: uppercase;
 }
 
 .experiencia-texto {
@@ -108,5 +109,8 @@
 @media (max-width: 800px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .experiencia .subtitulo {
+    font-size: 3rem;
   }
 }
