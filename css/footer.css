@@ -18,35 +18,43 @@
   color: #cccccc;
 }
 
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
 .footer-contato li {
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.1;
-  color: #ffffff;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 .footer-contato li a {
-  color: #ffffff;
-}
-
-.footer-contato a[href*="wa.me"] {
-  display: inline-block;
-  background: #25d366;
-  color: #ffffff;
-  padding: 10px 24px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: #1a1a1a;
+  border-radius: 50%;
   transition:
     background 0.3s ease,
-    transform 0.2s ease;
+    transform 0.3s ease;
 }
 
-.footer-contato a[href*="wa.me"]:hover {
-  background: #1ebe5d;
-  transform: scale(1.04);
+.footer-contato li a:hover {
+  background: #2da1ff;
+  transform: scale(1.15);
+}
+
+.footer-contato li a svg {
+  width: 26px;
+  height: 26px;
+  fill: #ffffff;
 }
 
 .footer-copy {
